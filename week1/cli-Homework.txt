@@ -11,3 +11,4 @@ you can do this with the command mkdir -p these/folders/just/for/fun/
  appending message without new line
 by the command echo -n first >>file.txt then we can append echo message >>file.txt
 to add another one like the example shown same steps echo -n second >>file.txt then we can append by echo message>>file.txt
+
