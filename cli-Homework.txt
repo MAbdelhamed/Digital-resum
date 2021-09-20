@@ -1,0 +1,13 @@
+Creating hidden file
+ Firstly we have to create the file with the command touch file.txt
+Then we can hide it with the command attrib +h file.txt
+Displaying it and its content in cli
+Firstly assume that we are at the same folder so we can write the command ls to get folder elements
+then we can use the command cat file.txt to display the file content
+ 
+ creating multible nested directories
+you can do this with the command mkdir -p these/folders/just/for/fun/
+
+ appending message without new line
+by the command echo -n first >>file.txt then we can append echo message >>file.txt
+to add another one like the example shown same steps echo -n second >>file.txt then we can append by echo message>>file.txt
