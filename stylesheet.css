@@ -1,0 +1,95 @@
+/* style the contact info with flex properity in colum direction
+that is why i could change thier order easily if i want */
+
+/* used san-serif monospace cursive */
+/* color combination #0b0c10 #c5c6c7 #eee2dc */
+
+body {
+    background-color: rgb(226, 220, 220);
+  }
+  
+  header {
+    display: flex;
+    flex-direction: row;
+    background-color: #0b0c10;
+  }
+  .header_img {
+    padding: 25px;
+    width: 80%;
+    height: 150px;
+    border-radius: 25%;
+  }
+  .header_info {
+    width: 70%;
+    color: aliceblue;
+  }
+  .header_info p {
+    font-family: monospace;
+  }
+  .header_info span {
+    font-family: cursive;
+    font-weight: bold;
+    font-style: italic;
+    margin-right: 20px;
+  }
+  
+  /* ___________________________________________________________________*/
+  
+  /* used the flex box to put both aside and article divs in one row
+  and it is better alternative than the float properity give you more than option
+  and make it easier we can reverse the elements , not only
+  put them in row but also we can put them in one column so it more felxible */
+  .main {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  main h4 {
+    font-size: 0.83em;
+  }
+  
+  aside {
+    padding: 25px;
+    width: 20%;
+    background-color: #c5c6c7;
+  }
+  aside p {
+    font-family: monospace;
+    padding-left: 20px;
+  }
+  aside ul li {
+    font-family: sans-serif;
+  }
+  aside ol li {
+    font-family: monospace;
+  }
+  aside h3 {
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  /* ________________________________________________________________ */
+  article {
+    padding: 25px;
+    width: 100%;
+    background-color: #eee2dc;
+  }
+  article p {
+    font-family: monospace;
+    padding-left: 20px;
+  }
+  article h3 {
+    font-family: cursive;
+    font-weight: bold;
+  }
+  
+  .margin_under {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .horozintal {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    border-bottom: 1px solid brown;
+  }
+  
