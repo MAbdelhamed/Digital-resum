@@ -40,7 +40,7 @@ body {
   and it is better alternative than the float properity give you more than option
   and make it easier we can reverse the elements , not only
   put them in row but also we can put them in one column so it more felxible */
-  .main {
+  main {
     display: flex;
     flex-flow: row nowrap;
   }
